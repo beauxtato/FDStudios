@@ -230,6 +230,8 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Fonts\opensans-regular-webfont.svg" />
+    <Content Include="Fonts\univeultcon-webfont.svg" />
     <Content Include="Images\logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -255,6 +257,12 @@
     <Content Include="Less\site.less" />
     <Content Include="Less\style.less" />
     <Content Include="Less\variables.less" />
+    <Content Include="Fonts\opensans-regular-webfont.eot" />
+    <Content Include="Fonts\opensans-regular-webfont.ttf" />
+    <Content Include="Fonts\opensans-regular-webfont.woff" />
+    <Content Include="Fonts\univeultcon-webfont.eot" />
+    <Content Include="Fonts\univeultcon-webfont.ttf" />
+    <Content Include="Fonts\univeultcon-webfont.woff" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Images\bg_pattern.png" />
     <Content Include="Images\bg_pattern2.png" />
@@ -275,6 +283,7 @@
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.min.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.js" />
     <Content Include="Scripts\jquery-ui-1.8.20.min.js" />
     <Content Include="Scripts\jquery.common.min.js" />
