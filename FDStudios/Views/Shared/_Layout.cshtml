@@ -12,9 +12,9 @@
     <meta name="keywords" content="New Orleans, Photographer, Photo, Photography, Wedding, Wedding Photography, Louisiana, Destination, Destination Wedding, New Orleans Destination" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="shortcut icon" href="favicon.png" />
-    <link rel="apple-touch-icon" href="images/touch-icon.png" />
-    <link rel="image_src" href="images/touch-icon.png" />
+    <link rel="shortcut icon" href="~/favicon.png" />
+    <link rel="apple-touch-icon" href="~/images/touch-icon.png" />
+    <link rel="image_src" href="~/images/touch-icon.png" />
 
     <link rel="stylesheet" href="~/content/style.css" />
     <!-- <link rel="stylesheet" href="less/style.less" type="text/less" media="screen" />
@@ -28,46 +28,14 @@
 <body class="fullpage no-js">
     <header id="header" class="normal-size clearfix">
         <hgroup id="logo">
-            <h1><a href="index.html">
-                <img src="images/logo.png" alt="Modelish" /></a></h1>
+            <h1><a href="~/">
+                <img src="~/images/logo.png" alt="Fleur DeSign Studios" /></a></h1>
         </hgroup>
-        <nav id="menu">
-            <ul>
-                <li class="arrow current_page_item">
-                    @Html.ActionLink("Home","Index","Home")
-                    
-                    <ul class="sub-menu">
-                        <li class="current_page_item"><a href="index.html">Supersized Images</a></li>
-                        <li><a href="index2.html">Full-page Video</a></li>
-                        <li><a href="index3.html">Panorama 360&deg;</a></li>
-                        <li><a href="index4.html">Panzer Playlist</a></li>
-                        <li><a href="index5.html">Classic Gallery</a></li>
-                        <li><a href="index6.html">iOSSlider Gallery</a></li>
-                    </ul>
-                </li>
-                <li><a href="portfolio.html">Portofolio</a></li>
-                <li><a href="journal.html">Journal</a></li>
-                <li class="arrow">
-                    <a href="about.html">Features</a>
-                    <ul class="sub-menu">
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="our-staff.html">Our Staff</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                        <li><a href="404.html">404 - Not Found</a></li>
-                        <li><a href="typography.html">Typography</a></li>
-                        <li><a href="grid.html">Grid Layout</a></li>
-                        <li><a href="forms-buttons.html">Forms &amp; Buttons</a></li>
-                        <li><a href="alerts-widgets.html">Alerts &amp; Widgets</a></li>
-                        <li><a href="css3.html">CSS3 Effects</a></li>
-                    </ul>
-                </li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+        @Html.Action("Navigation", "Home")
         <span id="menu-switch" class="button">Menu</span>
         <div class="social-links">
-            <a href="#" class="facebook tooltip animated bounce" title="Facebook"></a>
-            <a href="#" class="twitter tooltip animated bounce" title="Twitter"></a>
+            <a href="http://www.facebook.com/FDStudios/" target="_blank" class="facebook tooltip animated bounce" title="Facebook"></a>
+            <a href="http://www.twitter.com/FDStudios/" class="twitter tooltip animated bounce" title="Twitter"></a>
             <a href="#" class="googleplus tooltip animated bounce" title="Google+"></a>
         </div>
         <a class="supersized-prev"><span></span></a>
@@ -93,7 +61,7 @@
     <script type='text/javascript'>
         var supersized_slides = [
 			{
-			    image: 'tmp/placeholder-big.png',
+			    image: '/Gallery/2011-06-19_NOLAJapanQuakeFund/FDS_2344.png',
 			    article_title: 'Lorem ipsum sit amet',
 			    article_url: 'single-image.html',
 			    article_text: 'Consectetur adipisi elit, do eiusmod tempor incid idunt ut labore et dolore magna aliqua.'

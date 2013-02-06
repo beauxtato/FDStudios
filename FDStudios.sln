@@ -3,15 +3,20 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDStudios", "FDStudios\FDStudios.csproj", "{5799F673-7EDB-4CE6-AF4B-49AF3BED34B2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDStudios.Data", "FDStudios.Data\FDStudios.Data.csproj", "{D79CC45B-FAEF-43B9-ABDE-7012334EB6DA}"
+EndProject
 Global
 	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 2
+		SccNumberOfProjects = 3
 		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
 		SccTeamFoundationServer = https://lmkerr.tfspreview.com/defaultcollection
 		SccLocalPath0 = .
 		SccProjectUniqueName1 = FDStudios\\FDStudios.csproj
 		SccProjectName1 = FDStudios
 		SccLocalPath1 = FDStudios
+		SccProjectUniqueName2 = FDStudios.Data\\FDStudios.Data.csproj
+		SccProjectName2 = FDStudios.Data
+		SccLocalPath2 = FDStudios.Data
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +27,10 @@ Global
 		{5799F673-7EDB-4CE6-AF4B-49AF3BED34B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5799F673-7EDB-4CE6-AF4B-49AF3BED34B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5799F673-7EDB-4CE6-AF4B-49AF3BED34B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79CC45B-FAEF-43B9-ABDE-7012334EB6DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79CC45B-FAEF-43B9-ABDE-7012334EB6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79CC45B-FAEF-43B9-ABDE-7012334EB6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79CC45B-FAEF-43B9-ABDE-7012334EB6DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

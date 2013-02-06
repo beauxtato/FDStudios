@@ -15,6 +15,12 @@ namespace FDStudios.Controllers
             return View();
         }
 
+        [ChildActionOnly]
+        public ActionResult Navigation()
+        {
+            return View();
+        }
+
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";

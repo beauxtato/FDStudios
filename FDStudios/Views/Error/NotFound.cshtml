@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "NotFound";
+}
+
+<section id="main">
+    <div class="sep sep-no-margin"><span></span></div>
+    <div class="wrapper clearfix">
+        <h1 class="page-title huge">404 Error - Page not found</h1>
+        <p>Sorry.  The page you are looking for has vanished :( </p>
+        @Html.ActionLink("Home","Index", "Home", new { @class = "button" })
+        @*<a href="index.html" class="button">Go to my homepage</a>*@
+    </div>
+    <div class="sep sep-no-margin"><span></span></div>
+</section>

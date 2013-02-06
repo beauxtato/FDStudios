@@ -166,6 +166,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
@@ -232,6 +233,7 @@
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
     <Content Include="Fonts\opensans-regular-webfont.svg" />
     <Content Include="Fonts\univeultcon-webfont.svg" />
+    <Content Include="Gallery\2011-06-19_NOLAJapanQuakeFund\FDS_2344.png" />
     <Content Include="Images\logo.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -307,6 +309,15 @@
     <Content Include="Scripts\less.min.js" />
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\site.js" />
+    <Content Include="tmp\icon1.png" />
+    <Content Include="tmp\icon2.png" />
+    <Content Include="tmp\icon3.png" />
+    <Content Include="tmp\logo.png" />
+    <Content Include="tmp\panorama.jpg" />
+    <Content Include="tmp\placeholder-big.png" />
+    <Content Include="tmp\placeholder.png" />
+    <Content Include="tmp\share.jpg" />
+    <Content Include="tmp\text.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -346,12 +357,20 @@
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
+    <Content Include="Views\Home\Navigation.cshtml" />
+    <Content Include="Views\Error\NotFound.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FDStudios.Data\FDStudios.Data.csproj">
+      <Project>{d79cc45b-faef-43b9-abde-7012334eb6da}</Project>
+      <Name>FDStudios.Data</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

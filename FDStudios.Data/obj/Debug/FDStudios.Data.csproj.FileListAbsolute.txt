@@ -1,0 +1,8 @@
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\bin\Debug\FDStudios.Data.dll.config
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\bin\Debug\FDStudios.Data.dll
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\bin\Debug\FDStudios.Data.pdb
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\bin\Debug\EntityFramework.dll
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\bin\Debug\EntityFramework.xml
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\obj\Debug\FDStudios.Data.dll
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\obj\Debug\FDStudios.Data.pdb
+C:\Users\Loren\documents\visual studio 2012\Projects\FDStudios\FDStudios.Data\obj\Debug\FDStudios.Data.csprojResolveAssemblyReference.cache
